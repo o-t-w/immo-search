@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    font-family: system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Helvetica Neue', sans-serif;
+  }
+
+  
+  table {
+    text-align: center;
+    width: 100%;
+    border-spacing: 8px;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  .bold {
+    font-weight: 800;
+  }
+  
+  input {
+    padding: 8px;
+    border: solid 2px var(--gray);
+  }
+  
+  button {
+    background-color: transparent;
+    border: 0;
+  }
+  
+  .unstyled-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .property-types-list {
+    background-color: var(--gray);
+    padding: 8px;
+  }
+  
+  :root {
+    --gray: #F4F5F9;
+    --yellow: #F1D746;
+    --dark-yellow: #EFCB36;
+  }
+  
+  .search-grid {
+    column-gap: 40px;
+    max-width: 900px;
+    margin: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  
+  @media (min-width: 700px) {
+    .search-grid {
+      display: grid;
+      grid-template-columns: 150px 1fr;
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+  }
+  
+  .search-results {
+    grid-column: 2 / 3;
+  }
+  
+  .property-types {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+  
+  .search-form-and-selected {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+  
+  .constrain-width {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-top: 24px;
+    padding-bottom: 24px;
+      padding-left: 24px;
+      padding-right: 24px;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  header {
+    background-color: var(--gray);
+    margin-bottom: 40px;
+  }
+  
+  .immo-logo {
+    margin: auto;
+    display: block;
+    border: solid white 5px;
+  }
+  
+  @media (min-width: 700px) {
+    .immo-logo {
+      position: absolute;
+      bottom: -24px;
+    }
+  }
+  
+  .btn-search {
+    background-color: var(--yellow);
+    border: solid 2px var(--dark-yellow);
+    padding: 4px 24px;
+    box-shadow: rgba(0,0,0,.2) 0 1px 4px;
+  }
+  
+  .h1 {
+    font-weight: 400;
+  }
+  
+  .h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .mb24 {
+    margin-bottom: 24px;
+  }
+  
+  .mb16 {
+    margin-bottom: 16px;
+  }
+  
+  .align-center {
+    text-align: center;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .colgap16 {
+    column-gap: 16px;
+  }
+  
+  .flex1 {
+    flex: 1;
+  }
+  
